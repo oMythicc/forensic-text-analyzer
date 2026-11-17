@@ -1,0 +1,9 @@
+# Fictional chat export for demo purposes. All names, addresses and indicators are made up.
+[2026-03-02 22:14] mark_r: you still have the admin password for the finance share?
+[2026-03-02 22:15] dkline: yeah its in the notes app. dont tell anyone
+[2026-03-02 22:17] mark_r: ok. pull the Q1 payroll export and upload it to the dropbox link I sent
+[2026-03-02 22:17] mark_r: hxxps://files-share[.]example-drop[.]net/u/8812/q1
+[2026-03-02 22:20] dkline: done. its big, used the usb as backup too
+[2026-03-02 22:31] mark_r: good. send the payment to my wallet 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+[2026-03-02 22:32] dkline: and make sure you delete this chat after. use the vpn from now on
+[2026-03-03 08:05] mark_r: also clear logs on the file server before monday

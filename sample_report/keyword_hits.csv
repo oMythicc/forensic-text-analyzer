@@ -1,0 +1,26 @@
+keyword,file,line,context
+password,chat_export.txt,2,…22:14] mark_r: you still have the admin >>password<< for the finance share?
+admin,chat_export.txt,2,…03-02 22:14] mark_r: you still have the >>admin<< password for the finance share?
+dont tell,chat_export.txt,3,…:15] dkline: yeah its in the notes app. >>dont tell<< anyone
+upload,chat_export.txt,4,…k_r: ok. pull the Q1 payroll export and >>upload<< it to the dropbox link I sent
+dropbox,chat_export.txt,4,… Q1 payroll export and upload it to the >>dropbox<< link I sent
+usb,chat_export.txt,6,"… 22:20] dkline: done. its big, used the >>usb<< as backup too"
+wallet,chat_export.txt,7,…1] mark_r: good. send the payment to my >>wallet<< 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+payment,chat_export.txt,7,…026-03-02 22:31] mark_r: good. send the >>payment<< to my wallet 1A1zP1eP5QGefi2DMPTfTL5SLm…
+delete,chat_export.txt,8,…-03-02 22:32] dkline: and make sure you >>delete<< this chat after. use the vpn from now o…
+vpn,chat_export.txt,8,…ure you delete this chat after. use the >>vpn<< from now on
+clear logs,chat_export.txt,9,[2026-03-03 08:05] mark_r: also >>clear logs<< on the file server before monday
+tor,firewall.log,3,…0.4.17:51602 -> 192.0.2.200:9001 reason=>>tor<<-exit-blocklist
+bank,notes.txt,2,Payroll export totals look normal. >>Bank<< reconciliation pending.
+password,notes.txt,3,Reminder: rotate the service account >>password<< after the audit.
+wire transfer,notes.txt,4,…ntoso.example still unpaid; payment via >>wire transfer<< next week.
+invoice,notes.txt,4,Contractor >>invoice<< from contoso.example still unpaid; paym…
+payment,notes.txt,4,…oice from contoso.example still unpaid; >>payment<< via wire transfer next week.
+login,suspicious_email.eml,1,From: IT Support <it-helpdesk@secure->>login<<-portal.test>
+password,suspicious_email.eml,5,Subject: URGENT: >>Password<< expires today
+urgent,suspicious_email.eml,5,Subject: >>URGENT<<: Password expires today
+password,suspicious_email.eml,9,"Your >>password<< will expire in 2 hours. To keep access,…"
+credentials,suspicious_email.eml,9,"…in 2 hours. To keep access, verify your >>credentials<< here:"
+login,suspicious_email.eml,10,https://secure->>login<<-portal.test/acme/verify?id=55120
+urgent,suspicious_email.eml,12,This is >>URGENT<< and confidential. Do not forward this m…
+confidential,suspicious_email.eml,12,This is URGENT and >>confidential<<. Do not forward this message.

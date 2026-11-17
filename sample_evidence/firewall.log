@@ -1,0 +1,5 @@
+2026-03-02T22:18:03Z ALLOW TCP 10.20.4.17:51544 -> 203.0.113.45:443 bytes_out=48211904 user=dkline
+2026-03-02T22:18:09Z ALLOW TCP 10.20.4.17:51545 -> 203.0.113.45:443 bytes_out=52004417 user=dkline
+2026-03-02T22:40:51Z DENY  TCP 10.20.4.17:51602 -> 192.0.2.200:9001 reason=tor-exit-blocklist
+2026-03-03T08:07:12Z ALERT EDR host=FIN-WS-04 file=C:\Users\dkline\AppData\Local\Temp\svc_update.exe sha256=9f2b8c1e4a7d6f3b0e5c2a1d8f7e6b5a4c3d2e1f0a9b8c7d6e5f4a3b2c1d0e9f
+2026-03-03T08:07:12Z ALERT EDR md5=5d41402abc4b2a76b9719d911017c592 rule=CVE-2024-3400 exploit attempt

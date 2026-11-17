@@ -1,0 +1,15 @@
+From: "IT Support" <it-helpdesk@secure-login-portal.test>
+To: dkline@acme-corp.test
+Reply-To: harvest@mailbox-relay.test
+Subject: URGENT: Password expires today
+Date: Mon, 02 Mar 2026 09:12:44 -0500
+Received: from relay7.mailbox-relay.test (203.0.113.45) by mx1.acme-corp.test
+X-Originating-IP: 198.51.100.77
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Your password will expire in 2 hours. To keep access, verify your credentials here:
+https://secure-login-portal.test/acme/verify?id=55120
+
+This is URGENT and confidential. Do not forward this message.
+IT Support

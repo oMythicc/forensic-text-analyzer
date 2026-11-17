@@ -1,0 +1,563 @@
+{
+  "target": "sample_evidence",
+  "analyzed_at": "2026-11-17T06:57:23+00:00",
+  "watchlist_size": 48,
+  "files": [
+    {
+      "file": "chat_export.txt",
+      "sha256": "5d935ca6cddde2248f1be4136a193073f55516839ab9690876da2e6c564ab080",
+      "bytes": 760,
+      "lines": 9
+    },
+    {
+      "file": "firewall.log",
+      "sha256": "819961df57c14fa2ecbe7156e27b47fe96d0fa65dad79b4dba8fbaaca539ba48",
+      "bytes": 568,
+      "lines": 5
+    },
+    {
+      "file": "notes.txt",
+      "sha256": "c920f4e7ad0d1e1c23e5e8cb43128c40aa886d4db7ac43a1c7ec5e42f7750994",
+      "bytes": 252,
+      "lines": 4
+    },
+    {
+      "file": "suspicious_email.eml",
+      "sha256": "cb8a6dc67082026f815b8fc813b5457c1a9353fdf724e51fa4f9c73f89f828d0",
+      "bytes": 582,
+      "lines": 13
+    }
+  ],
+  "iocs": {
+    "url": [
+      {
+        "value": "https://files-share.example-drop.net/u/8812/q1",
+        "count": 1,
+        "first_seen": "chat_export.txt:5",
+        "files": [
+          "chat_export.txt"
+        ]
+      },
+      {
+        "value": "https://secure-login-portal.test/acme/verify?id=55120",
+        "count": 1,
+        "first_seen": "suspicious_email.eml:10",
+        "files": [
+          "suspicious_email.eml"
+        ]
+      }
+    ],
+    "domain": [
+      {
+        "value": "secure-login-portal.test",
+        "count": 2,
+        "first_seen": "suspicious_email.eml:1",
+        "files": [
+          "suspicious_email.eml"
+        ]
+      },
+      {
+        "value": "acme-corp.test",
+        "count": 1,
+        "first_seen": "suspicious_email.eml:2",
+        "files": [
+          "suspicious_email.eml"
+        ]
+      },
+      {
+        "value": "contoso.example",
+        "count": 1,
+        "first_seen": "notes.txt:4",
+        "files": [
+          "notes.txt"
+        ]
+      },
+      {
+        "value": "files-share.example-drop.net",
+        "count": 1,
+        "first_seen": "chat_export.txt:5",
+        "files": [
+          "chat_export.txt"
+        ]
+      },
+      {
+        "value": "mailbox-relay.test",
+        "count": 1,
+        "first_seen": "suspicious_email.eml:3",
+        "files": [
+          "suspicious_email.eml"
+        ]
+      },
+      {
+        "value": "mx1.acme-corp.test",
+        "count": 1,
+        "first_seen": "suspicious_email.eml:7",
+        "files": [
+          "suspicious_email.eml"
+        ]
+      },
+      {
+        "value": "relay7.mailbox-relay.test",
+        "count": 1,
+        "first_seen": "suspicious_email.eml:7",
+        "files": [
+          "suspicious_email.eml"
+        ]
+      }
+    ],
+    "bitcoin": [
+      {
+        "value": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+        "count": 1,
+        "first_seen": "chat_export.txt:7",
+        "files": [
+          "chat_export.txt"
+        ]
+      }
+    ],
+    "ipv4": [
+      {
+        "value": "203.0.113.45",
+        "count": 3,
+        "first_seen": "firewall.log:1",
+        "files": [
+          "firewall.log",
+          "suspicious_email.eml"
+        ],
+        "scope": "documentation"
+      },
+      {
+        "value": "192.0.2.200",
+        "count": 1,
+        "first_seen": "firewall.log:3",
+        "files": [
+          "firewall.log"
+        ],
+        "scope": "documentation"
+      },
+      {
+        "value": "198.51.100.77",
+        "count": 1,
+        "first_seen": "suspicious_email.eml:6",
+        "files": [
+          "suspicious_email.eml"
+        ],
+        "scope": "documentation"
+      }
+    ],
+    "sha256": [
+      {
+        "value": "9f2b8c1e4a7d6f3b0e5c2a1d8f7e6b5a4c3d2e1f0a9b8c7d6e5f4a3b2c1d0e9f",
+        "count": 1,
+        "first_seen": "firewall.log:4",
+        "files": [
+          "firewall.log"
+        ]
+      }
+    ],
+    "md5": [
+      {
+        "value": "5d41402abc4b2a76b9719d911017c592",
+        "count": 1,
+        "first_seen": "firewall.log:5",
+        "files": [
+          "firewall.log"
+        ]
+      }
+    ],
+    "cve": [
+      {
+        "value": "CVE-2024-3400",
+        "count": 1,
+        "first_seen": "firewall.log:5",
+        "files": [
+          "firewall.log"
+        ]
+      }
+    ],
+    "email": [
+      {
+        "value": "dkline@acme-corp.test",
+        "count": 1,
+        "first_seen": "suspicious_email.eml:2",
+        "files": [
+          "suspicious_email.eml"
+        ]
+      },
+      {
+        "value": "harvest@mailbox-relay.test",
+        "count": 1,
+        "first_seen": "suspicious_email.eml:3",
+        "files": [
+          "suspicious_email.eml"
+        ]
+      },
+      {
+        "value": "it-helpdesk@secure-login-portal.test",
+        "count": 1,
+        "first_seen": "suspicious_email.eml:1",
+        "files": [
+          "suspicious_email.eml"
+        ]
+      }
+    ]
+  },
+  "keyword_counts": [
+    [
+      "password",
+      4
+    ],
+    [
+      "payment",
+      2
+    ],
+    [
+      "login",
+      2
+    ],
+    [
+      "urgent",
+      2
+    ],
+    [
+      "admin",
+      1
+    ],
+    [
+      "dont tell",
+      1
+    ],
+    [
+      "upload",
+      1
+    ],
+    [
+      "dropbox",
+      1
+    ],
+    [
+      "usb",
+      1
+    ],
+    [
+      "wallet",
+      1
+    ],
+    [
+      "delete",
+      1
+    ],
+    [
+      "vpn",
+      1
+    ],
+    [
+      "clear logs",
+      1
+    ],
+    [
+      "tor",
+      1
+    ],
+    [
+      "bank",
+      1
+    ],
+    [
+      "wire transfer",
+      1
+    ],
+    [
+      "invoice",
+      1
+    ],
+    [
+      "credentials",
+      1
+    ],
+    [
+      "confidential",
+      1
+    ]
+  ],
+  "keyword_hits": [
+    {
+      "keyword": "password",
+      "file": "chat_export.txt",
+      "line": 2,
+      "context": "\u202622:14] mark_r: you still have the admin >>password<< for the finance share?"
+    },
+    {
+      "keyword": "admin",
+      "file": "chat_export.txt",
+      "line": 2,
+      "context": "\u202603-02 22:14] mark_r: you still have the >>admin<< password for the finance share?"
+    },
+    {
+      "keyword": "dont tell",
+      "file": "chat_export.txt",
+      "line": 3,
+      "context": "\u2026:15] dkline: yeah its in the notes app. >>dont tell<< anyone"
+    },
+    {
+      "keyword": "upload",
+      "file": "chat_export.txt",
+      "line": 4,
+      "context": "\u2026k_r: ok. pull the Q1 payroll export and >>upload<< it to the dropbox link I sent"
+    },
+    {
+      "keyword": "dropbox",
+      "file": "chat_export.txt",
+      "line": 4,
+      "context": "\u2026 Q1 payroll export and upload it to the >>dropbox<< link I sent"
+    },
+    {
+      "keyword": "usb",
+      "file": "chat_export.txt",
+      "line": 6,
+      "context": "\u2026 22:20] dkline: done. its big, used the >>usb<< as backup too"
+    },
+    {
+      "keyword": "wallet",
+      "file": "chat_export.txt",
+      "line": 7,
+      "context": "\u20261] mark_r: good. send the payment to my >>wallet<< 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa"
+    },
+    {
+      "keyword": "payment",
+      "file": "chat_export.txt",
+      "line": 7,
+      "context": "\u2026026-03-02 22:31] mark_r: good. send the >>payment<< to my wallet 1A1zP1eP5QGefi2DMPTfTL5SLm\u2026"
+    },
+    {
+      "keyword": "delete",
+      "file": "chat_export.txt",
+      "line": 8,
+      "context": "\u2026-03-02 22:32] dkline: and make sure you >>delete<< this chat after. use the vpn from now o\u2026"
+    },
+    {
+      "keyword": "vpn",
+      "file": "chat_export.txt",
+      "line": 8,
+      "context": "\u2026ure you delete this chat after. use the >>vpn<< from now on"
+    },
+    {
+      "keyword": "clear logs",
+      "file": "chat_export.txt",
+      "line": 9,
+      "context": "[2026-03-03 08:05] mark_r: also >>clear logs<< on the file server before monday"
+    },
+    {
+      "keyword": "tor",
+      "file": "firewall.log",
+      "line": 3,
+      "context": "\u20260.4.17:51602 -> 192.0.2.200:9001 reason=>>tor<<-exit-blocklist"
+    },
+    {
+      "keyword": "bank",
+      "file": "notes.txt",
+      "line": 2,
+      "context": "Payroll export totals look normal. >>Bank<< reconciliation pending."
+    },
+    {
+      "keyword": "password",
+      "file": "notes.txt",
+      "line": 3,
+      "context": "Reminder: rotate the service account >>password<< after the audit."
+    },
+    {
+      "keyword": "wire transfer",
+      "file": "notes.txt",
+      "line": 4,
+      "context": "\u2026ntoso.example still unpaid; payment via >>wire transfer<< next week."
+    },
+    {
+      "keyword": "invoice",
+      "file": "notes.txt",
+      "line": 4,
+      "context": "Contractor >>invoice<< from contoso.example still unpaid; paym\u2026"
+    },
+    {
+      "keyword": "payment",
+      "file": "notes.txt",
+      "line": 4,
+      "context": "\u2026oice from contoso.example still unpaid; >>payment<< via wire transfer next week."
+    },
+    {
+      "keyword": "login",
+      "file": "suspicious_email.eml",
+      "line": 1,
+      "context": "From: IT Support <it-helpdesk@secure->>login<<-portal.test>"
+    },
+    {
+      "keyword": "password",
+      "file": "suspicious_email.eml",
+      "line": 5,
+      "context": "Subject: URGENT: >>Password<< expires today"
+    },
+    {
+      "keyword": "urgent",
+      "file": "suspicious_email.eml",
+      "line": 5,
+      "context": "Subject: >>URGENT<<: Password expires today"
+    },
+    {
+      "keyword": "password",
+      "file": "suspicious_email.eml",
+      "line": 9,
+      "context": "Your >>password<< will expire in 2 hours. To keep access,\u2026"
+    },
+    {
+      "keyword": "credentials",
+      "file": "suspicious_email.eml",
+      "line": 9,
+      "context": "\u2026in 2 hours. To keep access, verify your >>credentials<< here:"
+    },
+    {
+      "keyword": "login",
+      "file": "suspicious_email.eml",
+      "line": 10,
+      "context": "https://secure->>login<<-portal.test/acme/verify?id=55120"
+    },
+    {
+      "keyword": "urgent",
+      "file": "suspicious_email.eml",
+      "line": 12,
+      "context": "This is >>URGENT<< and confidential. Do not forward this m\u2026"
+    },
+    {
+      "keyword": "confidential",
+      "file": "suspicious_email.eml",
+      "line": 12,
+      "context": "This is URGENT and >>confidential<<. Do not forward this message."
+    }
+  ],
+  "top_words": [
+    [
+      "dkline",
+      6
+    ],
+    [
+      "mark",
+      5
+    ],
+    [
+      "password",
+      4
+    ],
+    [
+      "export",
+      3
+    ],
+    [
+      "payroll",
+      3
+    ],
+    [
+      "tcp",
+      3
+    ],
+    [
+      "chat",
+      2
+    ],
+    [
+      "still",
+      2
+    ],
+    [
+      "notes",
+      2
+    ],
+    [
+      "payment",
+      2
+    ],
+    [
+      "file",
+      2
+    ],
+    [
+      "allow",
+      2
+    ],
+    [
+      "bytes",
+      2
+    ],
+    [
+      "user",
+      2
+    ],
+    [
+      "alert",
+      2
+    ],
+    [
+      "edr",
+      2
+    ],
+    [
+      "audit",
+      2
+    ],
+    [
+      "support",
+      2
+    ],
+    [
+      "urgent",
+      2
+    ],
+    [
+      "fictional",
+      1
+    ],
+    [
+      "demo",
+      1
+    ],
+    [
+      "purposes",
+      1
+    ],
+    [
+      "names",
+      1
+    ],
+    [
+      "addresses",
+      1
+    ],
+    [
+      "indicators",
+      1
+    ]
+  ],
+  "top_phrases": [
+    [
+      "payroll export",
+      2
+    ],
+    [
+      "allow tcp",
+      2
+    ],
+    [
+      "tcp bytes",
+      2
+    ],
+    [
+      "bytes user",
+      2
+    ],
+    [
+      "user dkline",
+      2
+    ],
+    [
+      "alert edr",
+      2
+    ]
+  ]
+}

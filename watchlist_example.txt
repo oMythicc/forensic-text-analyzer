@@ -1,0 +1,10 @@
+# Example custom watchlist: one keyword or phrase per line
+password
+payroll
+dropbox
+wallet
+delete
+clear logs
+usb
+vpn
+dont tell

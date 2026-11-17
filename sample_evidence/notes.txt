@@ -1,0 +1,4 @@
+Q1 payroll audit notes - internal
+Payroll export totals look normal. Bank reconciliation pending.
+Reminder: rotate the service account password after the audit.
+Contractor invoice from contoso.example still unpaid; payment via wire transfer next week.
