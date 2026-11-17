@@ -30,7 +30,7 @@ Reading every line by hand takes hours. This tool produces a first-pass report i
 | **IOC extraction** | IPv4 (labeled public / private / documentation), URLs, domains, emails, MD5 / SHA-1 / SHA-256, Bitcoin (legacy + bech32), Ethereum, CVE IDs |
 | **Refanging** | Catches IOCs written "defanged" for safe sharing, e.g. `hxxps://evil[.]com` or `user[at]domain[.]com` |
 | **Safe output** | IOCs are **defanged** in reports by default so nobody accidentally clicks a malicious link (`--no-defang` to turn off) |
-| **Keyword watchlist** | 50+ built-in investigative terms (credentials, money, evasion, exfiltration, social engineering) or your own list. Matches whole words and ignores case |
+| **Keyword watchlist** | Nearly 50 built-in investigative terms (credentials, money, evasion, exfiltration, social engineering) or your own list. Matches whole words and ignores case |
 | **Context (concordance)** | Every hit shows the words around it with the match marked `>>like this<<` |
 | **Email parsing** | `.eml` files are parsed into headers (`From`, `Reply-To`, `Received`, `X-Originating-IP`…) plus body text |
 | **Cross-file correlation** | Each IOC records how many times it appeared, where it was first seen, and every file it appeared in |
